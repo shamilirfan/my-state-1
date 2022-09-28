@@ -5,6 +5,7 @@ import Counter from './Counter';
 import Form from './Form';
 import { Routes, Route, Link } from "react-router-dom";
 import Links from './Link';
+import Fetch from './Fetch';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Route path="/" element={<Links />} />
                 <Route path="/form" element={<Form />} />
                 <Route path="/counter" element={<Counter />} />
+                <Route path="/fetch" element={<Fetch />} />
             </Routes>
 
         </div>
